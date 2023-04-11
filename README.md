@@ -3,9 +3,9 @@
 This example shows how to add reCAPTCHA to your frontend and backend.
 
 ### To run this example: 
-1. clone this repository using `git clone https://github.com/UCI-Chenli-teaching/cs122b-fall21-project3-recaptcha-example.git`
+1. clone this repository.
 2. Open IntelliJ -> Import Project -> Choose the project you just cloned (The root path must contain the pom.xml!) -> Choose Import project from external model -> choose Maven -> Click on Finish -> The IntelliJ will load automatically.
-3. For "Root Directory", right click "cs122b-fall21-project3-recaptcha-example" -> Mark Directory as -> sources root
+3. For "Root Directory", right click "cs122b-project3-recaptcha-example" -> Mark Directory as -> sources root
 4. In Tomcat Deployment Configuration, make sure the application context is: /cs122b-fall21-project3-recaptcha-example
 5. If you haven't done so, get a [reCAPTCHA](https://www.google.com/recaptcha/intro/v3.html) from Google. 
    `v3 Admin Console` -> `Register a new site` -> Choose `reCAPTCHA v2` -> Enter both your AWS public IP and "localhost" in "Domains" section -> Click "Submit"
