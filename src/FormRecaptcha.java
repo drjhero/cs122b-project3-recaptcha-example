@@ -47,6 +47,8 @@ public class FormRecaptcha extends HttpServlet {
 
         try {
             // Create a new connection to database
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
             Connection dbCon = DriverManager.getConnection(loginUrl, loginUser, loginPasswd);
 
             // Declare a new statement
